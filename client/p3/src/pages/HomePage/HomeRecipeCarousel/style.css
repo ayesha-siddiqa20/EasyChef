@@ -1,0 +1,17 @@
+.recipe-carousel-header{
+    background-color:#E47E20;
+    font-size:calc(20px + 0.5vw);
+    text-align:center;
+    color:#EFEEEE;
+}
+
+.recipe-carousel-cards{
+    background-color:#F2F2F2; 
+    padding:10px; display:grid; 
+    grid-template-columns: repeat(6, auto); 
+    overflow-x: scroll;
+    min-height: 16rem;
+}
+.recipe-carousel-cards::-webkit-scrollbar{
+    display: none;
+}
